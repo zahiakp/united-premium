@@ -1,3 +1,4 @@
+import About from "@/components/Home/About";
 import Hero from "@/components/Home/hero";
 import Main from "@/components/Home/Main";
 import WhyUs from "@/components/Home/WhyUs";
@@ -11,6 +12,7 @@ export default function Home() {
     <Hero/>
     <Main/>
     <WhyUs/>
+    <About/>
   </main>
   );
 }
