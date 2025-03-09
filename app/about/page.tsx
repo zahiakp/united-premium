@@ -4,6 +4,7 @@ import Nav from '@/components/common/Nav'
 import WhyUs from '@/components/Home/WhyUs'
 import About from '@/components/Home/About'
 import { Metadata } from 'next'
+import Footer from '@/components/common/Footer'
 
 export const metadata: Metadata  = {
     title: "About - United Premium",
@@ -17,6 +18,7 @@ function page() {
       <Hero/>
       <About/>
       <WhyUs/>
+      <Footer/>
     </div>
   )
 }

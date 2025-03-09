@@ -6,9 +6,9 @@ function Highlight() {
   return (
     <div className="w-full  py-28 group bg-gradient-to-br to-blue-800 from-[#003777] relative overflow-hidden">
       <section className="w-[90%] max-w-[1200px] mx-auto flex gap-20 px-5">
-       <p data-aos="fade-right" className="text-5xl leading-[55px] md:text-[80px] md:leading-[80px] text-blue-200 font-semibold Grotesque-font md:w-4/5"> Every child deserves not just an <span className="text-white"> education, </span>but the freedom to 
-       <span className="text-white"> dream and
-       achieve.</span></p>
+       <p data-aos="fade-right" className="text-5xl leading-[55px] md:text-[75px] md:leading-[75px] text-blue-200 font-semibold Grotesque-font md:w-4/5">
+        Every project deserves not just <span className="text-white"> materials, </span>but the foundation to dream and build something 
+       <span className="text-white"> extraordinary.</span></p>
       </section>
     <div className="w-screen overflow-hidden md:w-fit  absolute md:-right-[25%] top-0">
       <FlickeringGrid 
