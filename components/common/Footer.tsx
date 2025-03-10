@@ -21,66 +21,64 @@ function Footer() {
       icon: <TiSocialFacebook />,
       link: "",
     },
-    // { icon: <FaXTwitter />, link: "" },
     { icon: <FaYoutube />, link: "" },
   ];
   return (
     <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
-      <div className="mx-auto sm:px-6 px-7 lg:px-10 max-w-7xl">
-        <div className="grid grid-cols-1 md:col-span-3 lg:grid-cols-5 gap-y-7 md:gap-x-7">
-          <div
-            data-aos="fade-up"
-            data-aos-delay="100"
-            className="col-span-2 md:col-span-2 lg:col-span-2 lg:pr-8"
-          >
-            <div className="flex items-center gap-2">
-              <img src="/images/UPT logo transperant.png" alt="" className="h-[70px]" />
-            </div>
-
-            <p className="text-sm leading-relaxed text-zinc-500 mt-4">
-              United Premium Trading supplies top-grade construction materials
-              for all projects. With industry experience, we ensure clients get
-              the best products at competitive prices. Our mission is to support
-              construction with durable, cost-effective materials.
-            </p>
+      <div className="mx-auto w-[85%] max-w-[1200px]">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          className="flex items-center justify-center gap-20 p-10 rounded-3xl bg-gradient-to-br from-blue-50/50 to-blue-100"
+        >
+          <div className="flex items-center gap-2">
+            <img
+              src="/images/UPT logo transperant.png"
+              alt=""
+              className="h-[80px]"
+            />
           </div>
 
-          <div
-            data-aos="fade-up"
-            data-aos-delay="200"
-            className="col-span-2 md:col-span-1"
-          >
-            <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              pages
-            </p>
+          <p className="text-sm text-zinc-500 mt-4 flex-1">
+            United Premium Trading supplies top-grade construction materials for
+            all projects. With years of experience, we ensure our clients
+            receive the best products at the best prices.
+          </p>
+        </div>
 
-            <ul className="mt-6  space-y-4">
-              {[
-                { label: "Home", path: "/" },
-                { label: "About", path: "/about" },
-                { label: "Products", path: "/products" },
-                { label: "Services", path: "/services" },
-                { label: "Contact", path: "/contact" },
-              ].map((item: any, index: number) => (
-                <li key={index}>
-                  <a
-                    target="_blank"
-                    href={item.path}
-                    title=""
-                    className="flex text-base group items-center hover:translate-x-0 -translate-x-2 gap-2 text-black transition-all duration-200  hover:font-semibold focus:text-blue-600"
-                  >
-                    {" "}
-                    <span className="group-hover:opacity-100 group-hover:translate-x-0 -translate-x-2 duration-300 text-blue-600 opacity-0">
-                      <IoMdArrowForward />
-                    </span>
-                    {item.label}{" "}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="col-span-2 md:col-span-1"
+        >
 
-          <div
+          <ul className="mt-8 flex items-center justify-center gap-10">
+            {[
+              { label: "Home", path: "/" },
+              { label: "About", path: "/about" },
+              { label: "Products", path: "/products" },
+              // { label: "Services", path: "/services" },
+              { label: "Contact", path: "/contact" },
+            ].map((item: any, index: number) => (
+              <li key={index}>
+                <a
+                  target="_blank"
+                  href={item.path}
+                  title=""
+                  className="flex text-base group items-center hover:translate-x-0 -translate-x-2 gap-2 text-black transition-all duration-200  hover:font-semibold focus:text-blue-600"
+                >
+                  {" "}
+                  <span className="group-hover:opacity-100 group-hover:translate-x-0 -translate-x-2 duration-300 text-blue-600 opacity-0">
+                    <IoMdArrowForward />
+                  </span>
+                  {item.label}{" "}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* <div
             data-aos="fade-up"
             data-aos-delay="200"
             className="col-span-2 md:col-span-1"
@@ -111,15 +109,14 @@ function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
-          <div data-aos="fade-up" data-aos-delay="300" className=" col-span-1">
+        {/* <div data-aos="fade-up" data-aos-delay="300" className=" col-span-1">
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
               CONTACT
             </p>
             <p className="mt-5 font-semibold">
               United Premium Trading
-              {/* , New Delhi, India */}
             </p>
             <a href="" className="flex items-center gap-2 mt-2">
               <HiOutlineMail className="text-blue-600" />
@@ -144,8 +141,7 @@ function Footer() {
                 </a>
               ))}
             </div>
-          </div>
-        </div>
+          </div> */}
 
         <hr className="mt-16 mb-8 border-zinc-300/60" />
 
