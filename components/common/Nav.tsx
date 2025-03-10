@@ -6,7 +6,7 @@ function Nav({active}:{active:string}) {
         {name: 'Home', href: '/'},
         {name: 'About', href: '/about'},
         {name: 'Products', href: '/products'},
-        {name: 'Services', href: '/services'},
+        // {name: 'Services', href: '/services'},
         {name: 'Contact', href: '/contact'},
     ]
   return (

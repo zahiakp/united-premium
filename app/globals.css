@@ -3,6 +3,9 @@
 .bg-blue-custom{
     background-color: #003777;
 }
+.text-custom{
+    color: #003777;
+}
 .container {
     max-width: 1200px;
     width: 90%;

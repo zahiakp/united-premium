@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Farro, Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import PageLoader from "@/components/common/Loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${PlusJakartaSans.className} ${geistMono.variable} ${Farros.variable} antialiased`}
-      >
+      ><PageLoader/>
         {children}
       </body>
     </html>
