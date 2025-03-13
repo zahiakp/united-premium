@@ -5,6 +5,7 @@ import WhyUs from "@/components/Home/WhyUs";
 import Nav from "@/components/common/Nav";
 import Highlight from "@/components/Home/Highlight";
 import Footer from "@/components/common/Footer";
+import Services from "@/components/Home/Services";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <WhyUs/>
     <About/>
     <Highlight/>
+    <Services/>
     <Footer/>
   </main>
   );
