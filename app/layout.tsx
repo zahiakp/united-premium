@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
-import { Farro, Geist, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
+import { Farro, Geist_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import PageLoader from "@/components/common/Loader";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
