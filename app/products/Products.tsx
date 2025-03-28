@@ -62,12 +62,12 @@ function Products() {
           dis: "LED bulbs, panels, floodlights, smart lighting",
         },
         {
-          icon: "electrical.svg",
+          icon: "PVC.svg",
           title: "Conduits & Accessories",
           dis: "PVC, GI, cable trays, junction boxes",
         },
         {
-          icon: "electrical.svg",
+          icon: "MDBs.svg",
           title: "Distribution Boards",
           dis: "MDBs, SDBs, ATS, custom panels",
         },
@@ -189,32 +189,32 @@ function Products() {
       itemLabel: "Our Construction Chemical Products",
       items: [
         {
-          icon: "chemicals.svg",
+          icon: "weatherproof.svg",
           title: "Adhesives & Sealants",
           dis: "Bonding agents, caulks, and weatherproof sealants",
         },
         {
-          icon: "chemicals.svg",
+          icon: "Waterproofing Solutions.svg",
           title: "Waterproofing Solutions",
           dis: "Membranes, coatings, and sealants",
         },
         {
-          icon: "chemicals.svg",
+          icon: "plasticizers.svg",
           title: "Concrete Additives",
           dis: "Accelerators, retarders, plasticizers",
         },
         {
-          icon: "chemicals.svg",
+          icon: "Concrete curing.svg",
           title: "Curing Compounds",
           dis: "Concrete curing and protection",
         },
         {
-          icon: "chemicals.svg",
+          icon: "Surface Treatments.svg",
           title: "Flooring & Surface Treatments",
           dis: "Epoxy coatings, concrete repair compounds",
         },
         {
-          icon: "chemicals.svg",
+          icon: "Grouts & Mortars.svg",
           title: "Grouts & Mortars",
           dis: "Tile adhesives, joint fillers, and repair mortars",
         },
@@ -265,27 +265,27 @@ function Products() {
       itemLabel: "Our Insulation Products",
       items: [
         {
-          icon: "insulation.svg",
+          icon: "Fiberglass.svg",
           title: "Thermal Insulation",
           dis: "Fiberglass, foam boards, spray foam",
         },
         {
-          icon: "insulation.svg",
+          icon: "Soundproof panels.png",
           title: "Acoustic Insulation",
           dis: "Soundproof panels, rock wool, acoustic foam",
         },
         {
-          icon: "insulation.svg",
+          icon: "Insulation rolls.png",
           title: "Roof & Wall Insulation",
           dis: "Insulation rolls, reflective foils",
         },
         {
-          icon: "insulation.svg",
+          icon: "pipe wraps.png",
           title: "Pipe Insulation",
           dis: "Pre-insulated pipes, pipe wraps",
         },
         {
-          icon: "insulation.svg",
+          icon: "Insulating boards.png",
           title: "Underfloor Heating Insulation",
           dis: "Insulating boards and membranes",
         },
@@ -295,13 +295,13 @@ function Products() {
   return (
     <>
     {Products.map((item:any,index:number)=>(
-        <section key={index} className={`w-full py-28 ${index%2==0?"bg-blue-white":"bg-blue-50"}`}>
+        <section key={index} className={`w-full py-20 md:py-28 px-4 md:px-0 ${index%2==0?"bg-blue-white":"bg-blue-50"}`}>
         <main className="container flex flex-col items-center justify-center">
-          <h6 className="text-5xl font-bold text-custom">{item.title}</h6>
+          <h6 className="text-4xl text-center md:text-5xl font-bold text-custom">{item.title}</h6>
           <p className="text-[15px] text-zinc-700 mt-5 text-center">
            {item.dis}
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-20 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-10 md:mt-20 items-center">
               {item.items.map((items:any,i:number)=>(
                   <div key={i} className="border hover:-translate-y-2 shadow-bg-cus shadow-blue-500 duration-200 flex flex-col items-center justify-center border-blue-500/30 gap-2 rounded-3xl p-5 px-10">
                   <div className="h-24  flex items-center justify-center"><img src={`/svg/${items.icon}`} className="h-20" /></div>

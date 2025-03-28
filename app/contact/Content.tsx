@@ -38,7 +38,7 @@ function Content() {
                 </a>
                 <a href="" className="flex items-center gap-2 mt-2">
                   <IoMdCall className="text-blue-600" />
-                  <p>+91- 9645900096</p>
+                  <p>+97 <span className="font-semibold"> 1543618581</span></p>
                 </a>
                 <a
                   href="https://www.unitedpremium.ae/"

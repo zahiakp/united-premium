@@ -15,7 +15,7 @@ function WhyUs() {
       title: "Reliable Supply",
       dis: "On-time delivery for every project",
     },
-    { icon:"support.svg",
+    { icon:"24 suppoer.svg",
       title: "Expert Support",
       dis: "Professional guidance for your material needs",
     },
