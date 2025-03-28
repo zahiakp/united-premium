@@ -86,7 +86,7 @@ const pagination = {
           backgroundPosition: 'center',
         }}
       >
-          <WordPullUp words={slide.title} className="text-5xl w-full md:w-2/3 text-white text-center Grotesque-font group leading-[55px] md:text-[80px] md:leading-[90px] font-normal" show={show ? 'show' : "hidden"} />
+          <WordPullUp words={slide.title} className="text-4xl w-full md:w-2/3 text-white text-center Grotesque-font group leading-[55px] md:text-[80px] md:leading-[90px] font-normal" show={show ? 'show' : "hidden"} />
       </div>
     </SwiperSlide>
   ))}

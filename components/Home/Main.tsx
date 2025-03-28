@@ -6,7 +6,7 @@ function Main() {
     <main className="w-full bg-blue-50">
       <div className="container flex flex-col text-center  items-center justify-center gap-7 py-20">
         {/* <p className="text-5xl font-semibold">Welcome to United Premium Trading</p> */}
-        <TextAnimate animation="blurInUp" by="word" className="text-5xl font-semibold">
+        <TextAnimate animation="blurInUp" by="word" className="text-4xl px-5 font-semibold">
         Welcome to United Premium Trading
     </TextAnimate>
         <p>

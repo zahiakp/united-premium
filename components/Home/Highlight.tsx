@@ -4,9 +4,9 @@ import FlickeringGrid from "../ui/flickering-grid";
 function Highlight() {
  
   return (
-    <div className="w-full  py-28 group bg-gradient-to-br to-blue-800 from-[#003777] relative overflow-hidden">
+    <div className="w-full py-20  md:py-28 group bg-gradient-to-br to-blue-800 from-[#003777] relative overflow-hidden">
       <section className="w-[90%] max-w-[1200px] mx-auto flex gap-20 px-5">
-       <p data-aos="fade-right" className="text-5xl leading-[55px] md:text-[75px] md:leading-[75px] text-blue-200 font-semibold Grotesque-font md:w-4/5">
+       <p data-aos="fade-right" className="text-4xl leading-[40px] md:text-[75px] md:leading-[75px] text-blue-200 font-semibold Grotesque-font md:w-4/5">
         Every project deserves not just <span className="text-white"> materials, </span>but the foundation to dream and build something 
        <span className="text-white"> extraordinary.</span></p>
       </section>
