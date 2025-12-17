@@ -13,7 +13,7 @@
     "framer-motion": "^12.4.10",
     "hamburger-react": "^2.5.2",
     "motion": "^12.4.10",
-    "next": "15.2.1",
+    "next": "15.2.8",
     "next-nprogress-bar": "^2.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
